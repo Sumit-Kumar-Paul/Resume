@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Making</title>
+</head>
+
+<body>
+    <header>
+        <p>
+        <h3>An HTML form is used to collect user input; The user input most often sent to a server for processing.</h3>
+        </p>
+        <H1>Colect Your Details & Choicess</H1>
+        <h3>Fill the from carefully....</h3>
+    </header>
+    <main>
+
+        <form action="">
+            <section id="My Details">
+                <label for="1stname">First Name: </label>
+                <input id="1stname" type="text" placeholder="First Name">
+                <label for="Mname">Middle Name: </label>
+                <input id="Mname" type="text">
+                <label for="lastname">Last Name: </label>
+                <input id="lastname" placeholder="Last Name" type="text"><br><br>
+            </section>
+
+            <section id="Parents">
+                <label for="father">Enter Yours Father's Full Name: </label>
+                <input id="father" type="text"><br><br>
+                <label for="mother">Enter Yours Mother's Full Name: </label>
+                <input id="mother" type="text"><br><br>
+            </section>
+
+            <section id="Other Details">
+                <label for="Age">Your Date of Birth: </label>
+                <input id="Age" type="date"><br><br>
+                <label for="day">In whic Day You Will Born:</label>
+                <input type="week"><br><br>
+                <label for="Aandhar">Enter your Aandhar Crad number: </label>
+                <input id="Aandhar" type="number"><br>
+                <p>Select Your Gender: </p>
+                <input type="radio" name="gender"> <label for="">Male</label>
+                <input type="radio" name="gender"> <label for="Female">Female</label>
+                <br><br>
+                <h2>Contact Details </h2>
+            </section>
+
+            <section id="contact">
+                <label for="phone">Enter Your Contact Number:</label>
+                <input id="phone" type="number"><br><br>
+                <label for="">Pin Code:</label>
+                <input type="number" placeholder="Pin Number">
+                <p id="about">Type Your Birth Place Village, Post , City & Dist: </p>
+                <textarea name="text" id="about" cols="30" rows="3"></textarea><br>
+                <label for="school">Enter Your School Name:</label>
+                <input id="school" type="text" placeholder="School Name"><br><br>
+                <label for="mail">Enter Your Contact Email id:</label>
+                <input id="mail" type="email">
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <h2>Choice/Option/Favirote</h2>
+        <section id="Choice">
+            <label for=""><b>Select Your Favirote Subject From Given Options:</b></label><br>
+            <input type="checkbox"> <label for="">Bangali</label>
+            <input type="checkbox"> <label for="">English</label>
+            <input type="checkbox"> <label for="">Mathametics</label>
+            <input type="checkbox"> <label for="">Chemistry</label>
+            <input type="checkbox"> <label for="">Physics</label>
+            <input type="checkbox"> <label for="">Biology</label>
+            <input type="checkbox"> <label for="">Automobile</label><br><br>
+
+            <label><b>Select one off Your Favirote Subject From Given Options:</b></label><br>
+            <input name="Sub" type="radio"> <label for="">Bangali</label>
+            <input name="Sub" type="radio"> <label for="">English</label>
+            <input name="Sub" type="radio"> <label for="">Mathametics</label>
+            <input name="Sub" type="radio"> <label for="">Chemistry</label>
+            <input name="Sub" type="radio"> <label for="">Physics</label>
+            <input name="Sub" type="radio"> <label for="">Biology</label>
+            <input name="Sub" type="radio"> <label for="">Automobile</label><br><br>
+        </section>
+        <section id="option">
+            <label for=""><B>Select Your Shirt Size:</B></label><br>
+            <input type="radio" name="Shirt" id="sub"> <label for="sub">Small (L)</label>
+            <input type="radio" name="Shirt" id="sub1"> <label for="sub1">Medium (M)</label>
+            <input type="radio" name="Shirt" id="sub2"> <label for="sub2">Large (L)</label>
+            <input type="radio" name="Shirt" id="sub3"> <label for="sub3">Extra Large (XL)</label><br><br>
+            <label for="blood">Chose Your Blood Group:</label>
+            <select name="blood" id="blood">
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select><br><br>
+        </section>
+
+        <section id="submit">
+            <label for="About">Tell About Your Exprience:</label><br>
+            <textarea placeholder="About Secion" name="text" id="About" cols="30" rows="04"></textarea><br><br>
+            <input type="reset">
+            <input type="submit">
+        </section>
+    </footer>
+
+</body>
+
+</html>
